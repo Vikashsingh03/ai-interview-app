@@ -1,0 +1,167 @@
+main {
+    min-height: 100vh;
+    width: 100%;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    background: #0d1117;
+    box-sizing: border-box;
+
+    .form-container {
+        width: 100%;
+        max-width: 420px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+
+        padding: 1.5rem;
+        border-radius: 1rem;
+
+        background: #161b22;
+        border: 1px solid #2a3348;
+    }
+
+    h2 {
+        text-align: center;
+        color: #e6edf3;
+        font-size: 1.4rem;
+        margin-bottom: 0.5rem;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.9rem;
+    }
+
+    .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 0.4rem;
+
+        label {
+            font-size: 0.8rem;
+            color: #7d8590;
+        }
+
+        input {
+            width: 100%;
+            border: 1px solid #2a3348;
+            outline: none;
+
+            padding: 0.75rem 1rem;
+            border-radius: 0.6rem;
+
+            background: #1e2535;
+            color: #e6edf3;
+
+            font-size: 0.9rem;
+
+            transition: 0.2s;
+
+            &:focus {
+                border-color: #e1034d;
+            }
+        }
+    }
+
+    button {
+        margin-top: 0.5rem;
+        border: none;
+        outline: none;
+
+        padding: 0.75rem;
+        border-radius: 0.6rem;
+
+        background: #e1034d;
+        color: white;
+
+        font-size: 0.95rem;
+        font-weight: 600;
+        cursor: pointer;
+
+        transition: 0.2s;
+
+        &:active {
+            transform: scale(0.97);
+        }
+    }
+
+    a {
+        text-align: center;
+        font-size: 0.85rem;
+        color: #e1034d;
+        text-decoration: none;
+    }
+}
+
+
+@media (max-width: 480px) {
+    main {
+        padding: 0.8rem;
+
+        .form-container {
+            padding: 1.2rem;
+            border-radius: 0.8rem;
+        }
+
+        h2 {
+            font-size: 1.2rem;
+        }
+
+        .input-group input {
+            padding: 0.65rem 0.8rem;
+            font-size: 0.85rem;
+        }
+
+        button {
+            padding: 0.7rem;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (max-width: 360px) {
+    .form-container {
+        padding: 1rem;
+    }
+
+    .input-group input {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    button {
+        font-size: 0.85rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .form-container {
+        max-width: 450px;
+        padding: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .input-group input {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .form-container {
+        max-width: 480px;
+    }
+}

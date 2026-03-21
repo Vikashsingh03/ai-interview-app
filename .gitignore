@@ -1,0 +1,64 @@
+# 🔐 Environment variables
+.env
+.env.*
+!.env.example
+
+# 📦 Node modules
+node_modules/
+
+# 🏗 Build outputs
+dist/
+build/
+.out/
+
+# 🧾 Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 🖥 OS files
+.DS_Store
+Thumbs.db
+
+# 💻 Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🧪 Coverage
+coverage/
+
+# 🗂 Cache
+.cache/
+.parcel-cache/
+.vite/
+
+# 🔥 Vite specific
+vite.config.ts.timestamp-*
+vite.config.js.timestamp-*
+
+# 📁 Temporary files
+tmp/
+temp/
+
+# 🗃 MongoDB local files (if any)
+data/
+*.mongodb
+
+# 🔑 Keys / secrets
+*.pem
+*.key
+
+# 📤 Uploads (if you store files locally)
+uploads/
+
+# 🧱 Next.js / other frameworks (safe ignore)
+.next/
+
+# 🧩 Optional (uncomment if needed)
+# package-lock.json
+# yarn.lock

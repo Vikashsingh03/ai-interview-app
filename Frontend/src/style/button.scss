@@ -1,0 +1,41 @@
+.button{
+
+    border: none;
+    outline: none;
+    padding-inline: 1.5rem;
+    padding-block: 0.75rem;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+
+    &.primary-button{
+        background-color: #e1034d;
+        color: white;
+    }
+
+    &:active{
+        transform: scale(0.9);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .button {
+        height: 60px;
+        width: 200px;
+        margin-top: 30px;
+        font-size: 0.85rem;
+        border-radius: 0.7rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .button {
+      height: 60px;
+      width: 200px;
+      margin-top: 30px;
+      font-size: 0.8rem;  
+     border-radius: 0.6rem;
+    } 
+}
