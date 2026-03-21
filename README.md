@@ -1,130 +1,100 @@
-# 🤖 AI Interview Prep App
+🚀 AI Interview Preparation App
+<p align="center"> <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300" /> </p> <p align="center"> <b>🔥 Crack your next interview with AI-powered strategy</b> </p>
 
-An AI-powered full-stack web application that helps users prepare for interviews by generating personalized interview questions, answers, and preparation roadmaps based on job descriptions and user profiles.
+🏆 Badges
+<p align="center"> <img src="https://img.shields.io/github/stars/Vikashsingh03/ai-interview-app?style=for-the-badge" /> <img src="https://img.shields.io/github/forks/Vikashsingh03/ai-interview-app?style=for-the-badge" /> <img src="https://img.shields.io/github/issues/Vikashsingh03/ai-interview-app?style=for-the-badge" /> <img src="https://img.shields.io/github/license/Vikashsingh03/ai-interview-app?style=for-the-badge" /> </p>
 
----
+✨ Features
 
-## 🔥 Features
+✅ AI-generated Interview Questions
+✅ Technical + Behavioral Questions
+✅ Personalized Roadmap
+✅ Resume Upload Support
+✅ Match Score Analysis
+✅ Skill Gap Detection
+✅ Download Resume PDF
 
-- 🧠 AI-generated Technical & Behavioral Questions  
-- 📊 Match Score based on your profile  
-- 🗺 Personalized Preparation Roadmap  
-- 📄 Resume Upload (PDF/DOCX)  
-- 🧾 AI-generated Resume PDF  
-- 🔐 Authentication (Login / Register)  
-- ⚡ Real-time UI with modern design  
+🧠 How It Works
+flowchart LR
+A[User Input] --> B[AI Processing]
+B --> C[Interview Questions]
+B --> D[Roadmap]
+B --> E[Match Score]
 
----
-
-## 🛠 Tech Stack
-
-### Frontend
-- React (Vite)
-- SCSS
-- React Router
-- Axios
-
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-
-### AI Integration
-- Google Gemini API
-
----
-
-## 📁 Project Structure
-ai-interview-app/
-│
-├── frontend/ # React app
-├── backend/ # Node.js server
-│
-└── README.md
-
-
----
-
-## ⚙️ Environment Variables
-
-Create a `.env` file in backend:
-PORT=3000
-MONGO_URI=your_mongodb_connection
-GEMINI_API_KEY=your_api_key
-
-
-Frontend `.env`:
-VITE_API_URL=http://localhost:3000
-
-
----
-
-## 🚀 Run Locally
-
-### 1. Clone repo
+🛠 Tech Stack
+💻 Frontend
+React.js ⚛️
+Vite ⚡
+SCSS 🎨
+🧠 Backend
+Node.js
+Express.js
+MongoDB
+🤖 AI
+Gemini API
+📸 Screenshots
+<p align="center"> <img src="https://via.placeholder.com/800x400.png?text=Home+Page" /> <img src="https://via.placeholder.com/800x400.png?text=Interview+Page" /> </p>
+⚙️ Installation
+# Clone repo
 git clone https://github.com/Vikashsingh03/ai-interview-app.git
 
+# Go to project
 cd ai-interview-app
 
-
----
-
-### 2. Install dependencies
-cd backend
+# Install frontend
+cd frontend
 npm install
 
-cd ../frontend
+# Install backend
+cd ../backend
 npm install
-
-
----
-
-### 3. Run app
-backend
-
+▶️ Run Project
+# Backend
 cd backend
 npm run dev
 
-frontend
-
+# Frontend
 cd frontend
 npm run dev
+🌐 Environment Variables
 
+Create .env file in backend:
 
----
+PORT=3000
+MONGO_URI=your_mongodb_url
+GEMINI_API_KEY=your_api_key
+📦 Deployment
 
-## 🌐 Deployment
+🚀 Frontend → Vercel / Netlify
+🚀 Backend → Render / Railway
 
-- Frontend: Vercel  
-- Backend: Render  
+🤝 Contributing
 
----
+Contributions are welcome!
 
-## 📸 Screenshots
+# Fork repo
+# Create branch
+git checkout -b feature-name
 
-_Add screenshots here for better UI showcase_
+# Commit changes
+git commit -m "Added feature"
 
----
+# Push
+git push origin feature-name
+⭐ Support
 
-## 💡 Future Improvements
+If you like this project:
 
-- 🔊 Voice-based interview simulation  
-- 🎥 Video interview practice  
-- 📈 Analytics dashboard  
-- 🤝 Multi-user collaboration  
+👉 Give a ⭐ on GitHub
+👉 Share with friends
 
----
+👨‍💻 Author
 
-## 🙌 Author
+Vikash Singh
 
-**Vikash Singh**
+🔥 Fun Fact
 
-- GitHub: https://github.com/Vikashsingh03
+"AI won't replace developers… but developers using AI will replace others 😉"
 
----
-
-## ⭐ Support
-
-If you like this project, give it a ⭐ on GitHub!
-
----
+🎉 Outro GIF
+<p align="center"> <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="250" /> </p>
