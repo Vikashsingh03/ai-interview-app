@@ -51,15 +51,6 @@ async function generateInterviewReport({ resume, selfDescription, jobDescription
     })
 
     return JSON.parse(response.text)
-        try {
-        const pdfBuffer = await generatePdfFromHtml(jsonContent.html)
-        return pdfBuffer
-    } catch (err) {
-        console.log("PDF ERROR:", err)  
-        throw err
-    }
-}
-
 
 }
 
@@ -124,8 +115,13 @@ async function generateResumePdf({ resume, selfDescription, jobDescription }) {
     const jsonContent = JSON.parse(response.text)
 
     const pdfBuffer = await generatePdfFromHtml(jsonContent.html)
-
-    return pdfBuffer
+     try {
+        const pdfBuffer = await generatePdfFromHtml(jsonContent.html)
+        return pdfBuffer
+    } catch (err) {
+        console.log("PDF ERROR:", err)   // 👈 ye line error batayegi Render logs me
+        throw err
+    }
 
 }
 
