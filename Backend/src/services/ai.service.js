@@ -51,6 +51,14 @@ async function generateInterviewReport({ resume, selfDescription, jobDescription
     })
 
     return JSON.parse(response.text)
+        try {
+        const pdfBuffer = await generatePdfFromHtml(jsonContent.html)
+        return pdfBuffer
+    } catch (err) {
+        console.log("PDF ERROR:", err)  
+        throw err
+    }
+}
 
 
 }
